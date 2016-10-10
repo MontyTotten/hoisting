@@ -36,7 +36,7 @@ var temp = formatTemp(99);
 
 console.log(temp);
 
-// moved var unit = 'C'; to outside of formatTemp as it was returning undefined when contained by the formatTemp function.
+// added var trueUnit that is equal to unit within the formatTemp function 
 
 
 
